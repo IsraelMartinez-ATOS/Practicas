@@ -38,7 +38,7 @@
   height: 20px;
   width: 28px;
   cursor: pointer;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 .menu-btn__burger {
   position: absolute;
@@ -47,7 +47,7 @@
   width: 28px;
   height: 3px;
   background: #fff;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 .menu-btn__burger::before {
   content: "";
@@ -99,14 +99,14 @@
   list-style-type: none;
   padding-right: 1rem;
   transform: translateY(-100%);
-  transition: all 0.5s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 .nav .menu-nav.open {
   transform: translateY(0);
 }
 .nav .menu-nav__item {
   transform: translateX(100vw);
-  transition: all 0.5s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 .nav .menu-nav__item.open {
   transform: translateX(0);
@@ -120,7 +120,7 @@
   text-transform: uppercase;
   padding: 2rem 0;
   font-weight: 300;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 .nav .menu-nav__link:hover {
   color: #ff652f;
@@ -239,7 +239,7 @@
   width: 100%;
   background: #ff652f;
   opacity: 0;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 .projects__item:hover::after {
   top: 0;
@@ -262,7 +262,7 @@
 .projects__btn {
   opacity: 0;
   color: #000;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 .projects__btn:hover {
   color: #fff;
@@ -395,7 +395,7 @@ main .social-icons {
 }
 main .social-icons a {
   padding: 0.4rem;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 main .social-icons a:hover {
   color: #ff652f;
