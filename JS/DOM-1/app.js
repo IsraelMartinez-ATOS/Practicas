@@ -8,5 +8,5 @@ let delete2 = document.getElementsByClassName("delete2");
 let delete3 = document.getElementsByClassName("delete3");
 let delete4 = document.getElementsByClassName("delete4");
 
-
+delete1.onclick 
 
